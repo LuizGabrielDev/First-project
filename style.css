@@ -1,0 +1,42 @@
+body    {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+header {
+    padding: 50px;
+    margin: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+header img {
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    float: left;
+    left: 275px;
+    bottom: 5px;
+}
+
+header, footer {
+        background-color: #191825;
+        text-align: center;
+        color: #ffffff;
+}
+
+section {
+    margin: 50px;
+    padding: 50px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #865DFF;
+}
+
+footer {
+    padding: 10px;
+}
