@@ -18,10 +18,11 @@ function validarFormulario() {
 
 function enviarFormulario() {
     if (validarFormulario()) {
-        enviarParaWhatsapp();
+        enviarParaWhatsApp();
     }
 }
 
+// Função de máscara de telefone
 function mascaraTelefone(telefone) {
     const texto = telefone.value;
     const textoApenasNumeros = texto.replace(/\D/g, "").substring(0, 11);
@@ -41,6 +42,7 @@ function mascaraTelefone(telefone) {
     telefone.value = telefoneFormatado;
 }
 
+// Adicionar evento de input ao campo de telefone
 const campoTelefone = document.getElementById("input-tel");
 campoTelefone.addEventListener("input", function () {
     mascaraTelefone(this);
