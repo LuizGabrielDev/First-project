@@ -1,15 +1,13 @@
-body    {
+body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: black;
 }
-
 
 header {
     padding: 10px;
     text-align: center;
 }
-
 
 header img {
     height: 150px;
@@ -17,14 +15,15 @@ header img {
     border: 3px solid white;
 }
 
-header, footer {
-        background-color: #191825;
-        color: #ffffff;
-        /* width: 100%; */
+header,
+footer {
+    background-color: #191825;
+    color: #ffffff;
+    /* width: 100%; */
 }
 
 nav {
-    background-color: #865DFF;
+    background-color: #865dff;
 }
 
 nav ul {
@@ -51,7 +50,7 @@ section {
     padding: 50px;
     color: #ffffff;
     border-radius: 25px;
-    background-color: #865DFF;
+    background-color: #865dff;
 }
 
 footer {
@@ -69,6 +68,10 @@ footer {
     cursor: pointer;
     color: #ffffff;
     background-color: #191825;
+}
+
+.invalid {
+    border: 2px solid red;
 }
 
 @media only screen and (max-width: 600px) {

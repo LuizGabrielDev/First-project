@@ -1,8 +1,7 @@
-
 form {
     width: 400px;
     margin: 100px auto;
-    background-color: #865DFF;
+    background-color: #865dff;
     padding: 20px;
     color: aliceblue;
     border-radius: 15px;
@@ -17,7 +16,8 @@ form fieldset label {
     display: block;
 }
 
-form fieldset input, textarea {
+form fieldset input,
+textarea {
     width: 100%;
 }
 
@@ -26,4 +26,3 @@ form fieldset input, textarea {
         width: 80%;
     }
 }
-    
